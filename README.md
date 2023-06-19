@@ -16,16 +16,15 @@ Para el planteamiento general de la solución se decidió que el contenido de la
 
 La web esta construida en base a un **Contexto** lo que permite que cada componente sea independiente de los demás y asi poder reutilizarlos, eliminarlos o agregarlos sin afectar a los demás componentes, esto hace que la web sea **fácilmente editable y escalable** a pesar de tener un diseño cuestionable el cual es un problema que se puede **solucionar fácilmente** por su misma escalabilidad .
 
-
 # Quien Soy
+
 Bernardo Abel Lopez Sanchez
 
-Soy Programador Web FullStack 
+Soy Programador Web FullStack
 
 No soy bueno diseñando, no es mi punto fuerte, soy bueno implementando y diseñando componentes apartir de un diseño pre existente, use como base el diseño que se nos proporciono en el **Figma** [ { Link } ](https://www.figma.com/file/XS37B2tVPmXQfKUnDfF3Qk/Danone-Hackathon-Mexico?type=design&node-id=0-1&t=0n2wFBBCoYls7aNg-0) he hice mi mejor esfuerzo para esto
 
 En este proyecto no cree como tal un BackEnd ya que no se me hizo necesario, pero si cree un **Contexto** que me permite tener un mejor control de los datos y asi poder reutilizarlos en los distintos componentes de la web, también cree **funciones** que me permiten hacer peticiones a la base de datos de Supabase y asi poder obtener los datos de los productos y asi poder mostrarlos en la web y también use el LocalStorage para poder guardar información y asi evitar uso desmesurado de los servicios en linea que en la mayoría de veces es un gasto considerable.
-
 
 # Usage
 
@@ -51,18 +50,18 @@ Para hacer uso correcto del proyecto toma en cuanta que se usan las siguientes d
 
 ```json
 {
-    @supabase/supabase-js: "^2.25.0",
-    axios: "^1.4.0",
-    contentful: "^10.2.4",
-    file-saver: "^2.0.5",
-    framer-motion: "^10.12.16",
-    jsonwebtoken: "^9.0.0",
-    next: "13.4.6",
-    openai: "^3.3.0",
-    react: "18.2.0",
-    react-dom: "18.2.0",
-    sass: "^1.63.4",
-    uuid: "^9.0.0"
+  "@supabase/supabase-js": "^2.25.0",
+  "axios": "^1.4.0",
+  "contentful": "^10.2.4",
+  "file-saver": "^2.0.5",
+  "framer-motion": "^10.12.16",
+  "jsonwebtoken": "^9.0.0",
+  "next": "13.4.6",
+  "openai": "^3.3.0",
+  "react": "18.2.0",
+  "react-dom": "18.2.0",
+  "sass": "^1.63.4",
+  "uuid": "^9.0.0"
 }
 ```
 
@@ -226,7 +225,6 @@ La web la comencé a trabajar de la siguiente forma:
 - Para cuando termine de diseñar el SignIn y el SignUp ya no tenia mucho tiempo y ese fue mi **Problema Real** la falta de tiempo me hizo replantear mis metas, me di cuenta que las paginas de **Usuario**, **Contacto** y **Diario** no las podría terminar asi que pense en una solución y esa fue "dejar de lado la parte del usuario y contacto y con el poco tiempo que me quedaba terminar **Inicio** y darle cierta funcionalidad básica a **DIario**"
 
 4. **creación de la pagina de Inicio** - esta pagina fue la mas simple ya que era una simple landing con muy poca información, solo lo necesaria para poder hacer que el usuario se registre o vea alguna pagina.
-4. **creación de la pagina de Diario** - cuando llegue a esta pagina el ya no tenia tiempo esto hizo que tuviera que trabajar en esta pagina sin buenas practicas en el maquetado, a pesar de esto pude implementar el **chat bot** super simple. en esta parte tuve un **problema**, la api de **Open IA** de dio un error que me impidió asegurarme que todo funcione al 100% sin embargo al crear esta parte de la **API de Open IA** seguí las mejores practicas y lo hice de tal forma que si la api de **Open IA** funcionara esta parte de la web funcionaria sin ningún problema y si no es asi simplemente el bot no te responderá nada. el **tiempo** fue lo que me impidió hacer que esta parte de la web funcione al 100% con mas tiempo esta web quedara al 100%.
+5. **creación de la pagina de Diario** - cuando llegue a esta pagina el ya no tenia tiempo esto hizo que tuviera que trabajar en esta pagina sin buenas practicas en el maquetado, a pesar de esto pude implementar el **chat bot** super simple. en esta parte tuve un **problema**, la api de **Open IA** de dio un error que me impidió asegurarme que todo funcione al 100% sin embargo al crear esta parte de la **API de Open IA** seguí las mejores practicas y lo hice de tal forma que si la api de **Open IA** funcionara esta parte de la web funcionaria sin ningún problema y si no es asi simplemente el bot no te responderá nada. el **tiempo** fue lo que me impidió hacer que esta parte de la web funcione al 100% con mas tiempo esta web quedara al 100%.
 
 **En general** me enfoque en la funcionalidades generales y en que todo sea 100% escalable y fácil de mantener, el diseño no fue mi prioridad ya que no es mi fuerte pero trate de improvisar he intentar hacer un diseño que no se viera tan mal y que fuera funcional.
-
