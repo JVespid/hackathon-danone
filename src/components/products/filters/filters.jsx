@@ -26,6 +26,7 @@ const Search = ({ products, type, Type }) => {
   const [focused, setFocused] = useState("hidden");
   const [selected, setSelected] = useState({ id: null });
   const paseOneDate = React.useRef(true);
+  const refFocus = React.useRef(null);
 
   useEffect(() => {
     if (!selected || selected.id != itemSelect) {
@@ -94,12 +95,14 @@ const Search = ({ products, type, Type }) => {
             onFocus={e => setFocused("visible")}
             onBlur={e => setFocused("hidden")}
             placeholder={Type}
+            ref={refFocus}
           />
           <div
             className={style["img"]}
-            onClick={() =>
-              setFocused(focused == "visible" ? "hidden" : "visible")
-            }
+            onClick={() => {
+              setFocused(focused == "visible" ? "hidden" : "visible");
+              refFocus.current.focus();
+            }}
           >
             <img src="/svg/icons/arrow-bottom.svg" alt="arrow" />
           </div>

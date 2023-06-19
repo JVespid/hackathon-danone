@@ -76,6 +76,8 @@ export default function Nav() {
     visible: {
       padding: "10px",
       height: "auto",
+
+      overflow: "initial",
     },
   };
 
@@ -91,7 +93,9 @@ export default function Nav() {
             whileTap={{ scale: 0.9 }}
             whileHover={{ scale: 1.1 }}
             className={style["responsive"]}
-            onClick={() => {setNavbar(!navBar)}}
+            onClick={() => {
+              setNavbar(!navBar);
+            }}
           >
             <img src="svg/icons/cuadro.svg" alt="menu desplegable " />
           </motion.div>
