@@ -1,0 +1,109 @@
+.main {
+  background: #f4f2f2;
+  background: rgb(244, 242, 242);
+  background: radial-gradient(
+    circle,
+    rgba(244, 242, 242, 1) 0%,
+    rgba(0, 0, 113, 1) 100%
+  );
+  min-width: 100vw;
+  min-height: 100vh;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(244, 242, 242);
+  border: solid 1px rgb(86, 134, 255);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  cursor: pointer;
+  img {
+    width: 50%;
+    height: 50%;
+    rotate: 90deg;
+  }
+}
+
+.form {
+  background-color: rgb(244, 242, 242);
+  border: solid 1px rgb(86, 134, 255);
+  padding: 10px;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: auto;
+  margin: auto;
+  width: clamp(300px, 80%, 800px);
+  height: clamp(300px, 80%, 800px);
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    width: clamp(300px, 40%, 800px);
+    padding: 0;
+    margin: 0 auto auto auto;
+
+    div {
+      display: none;
+    }
+
+    label {
+      font-size: 2rem;
+    }
+    .question-input {
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin:  auto;
+  }
+  .btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    input {
+      font-size: 1.5rem;
+      background-color: rgb(231, 230, 232);
+      padding: 10px 20px;
+      border-radius: 16px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgb(86, 134, 255);
+        color: white;
+      }
+    }
+  }
+}

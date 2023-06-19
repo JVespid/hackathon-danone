@@ -9,8 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.25.0",
+    "axios": "^1.4.0",
+    "contentful": "^10.2.4",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^10.12.16",
+    "jsonwebtoken": "^9.0.0",
     "next": "13.4.6",
+    "openai": "^3.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.63.4",
+    "uuid": "^9.0.0"
   }
 }

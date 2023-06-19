@@ -1,0 +1,140 @@
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.historial {
+  width: 100%;
+  min-height: 60vh;
+  height: auto;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .historial-container {
+    width: clamp(300px, 80%, 800px);
+    background: rgb(255, 255, 255);
+    border: 0.769852px solid #324baa;
+    color: #324baa;
+    min-height: 60vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 16px;
+    .msg-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+
+      .msg {
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        .header {
+          background: rgb(50, 75, 170);
+          color: white;
+          height: max-content;
+          padding: 5px 10px;
+          width: 100%;
+        }
+        p {
+          background: rgb(179, 211, 255);
+          color: black;
+          height: max-content;
+          padding: 10px 10px;
+          width: 100%;
+          text-align: justify;
+        }
+      }
+      .bot {
+        align-items: flex-start;
+        .header {
+          display: flex;
+          justify-content: flex-end;
+        }
+        p {
+        }
+      }
+      .user {
+        align-items: flex-end;
+        .header {
+          display: flex;
+          justify-content: flex-start;
+        }
+
+        p {
+        }
+      }
+    }
+  }
+}
+
+.text-input {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    width: clamp(300px, 80%, 800px);
+    height: 80px;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 13.0875px;
+      width: 80%;
+      margin: 20px 0;
+      height: 43.11px;
+      background: #ffffff;
+      border: 0.769852px solid #324baa;
+      color: #324baa;
+      border-radius: 0;
+      height: 70px;
+      font-size: 1.5rem;
+    }
+    .img {
+      width: 80px;
+      height: 70px;
+      background: #ffffff;
+      border: 0.769852px solid #324baa;
+      border-radius: 0;
+      color: #324baa;
+      margin: 20px 0;
+      padding: 13.0875px;
+
+      img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+      }
+    }
+  }
+}

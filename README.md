@@ -1,38 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Background del proyecto
 
-## Getting Started
+# • Usage
 
-First, run the development server:
+# • Instalación
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# • Stack utilizado
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Toma de decisiones. Aquí será importante explicar el pensamiento y la lógica detrás de las <br> decisiones tomadas durante el evento.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+/\*
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Página de inicio: vista que muestre una introducción a la aplicación.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Página de configuración de calorías diarias: vista donde los usuarios puedan establecer su
+límite máximo de calorías diarias. Esto podría incluir un formulario o un campo de entrada donde
+puedan ingresar la cantidad de calorías que desean consumir como máximo en un día. 2. 3. Página de productos: catálogo con lista de productos de gama eco de Danone.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Página de detalles del producto: vista que muestre detalles sobre el producto. Por ejemplo:
+valor energético, grasas e hidratos de carbono. Indicar si procede de agricultura ecológica y sus
+ingredientes. 4.
 
-## Learn More
+Barra de búsqueda: Agrega una barra de búsqueda para permitir a los usuarios buscar
+productos específicos dentro del catálogo. 5.
 
-To learn more about Next.js, take a look at the following resources:
+Página de perfil del usuario: Crea una vista donde los usuarios puedan acceder a su perfil y
+ver su límite máximo de calorías diarias, así como su interés en productos con una menor huella
+ecológica. También podrían tener la opción de modificar estos parámetros si lo desean
+\*/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  {
+  marcas:[{
+  id:1
+  name:"lala",
+  calorias: 2000,
+  },
+  {id:1
+  name:"leche",
+  calorias: 3000,
+  },
+  {id:1
+  name:"jukala",
+  calorias: 1000,
+  }
+  ]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  }

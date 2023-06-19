@@ -1,0 +1,33 @@
+{
+  "sys": { "type": "Array" },
+  "total": 1,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": { "tags": [] },
+      "sys": {
+        "space": {
+          "sys": { "type": "Link", "linkType": "Space", "id": "53knvg4kpkys" }
+        },
+        "id": "6jtSK9jbCpTM9UQHVJQFAa",
+        "type": "Entry",
+        "createdAt": "2023-06-17T19:04:52.802Z",
+        "updatedAt": "2023-06-17T19:04:52.802Z",
+        "environment": {
+          "sys": { "id": "master", "type": "Link", "linkType": "Environment" }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "productos"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": { "producto1": { "hola": "hola" }, "producto11": "holas" }
+    }
+  ]
+}

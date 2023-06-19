@@ -1,0 +1,53 @@
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.center {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.center h1 {
+  font-size: 5rem;
+}
+.center h2 {
+  font-size: 5rem;
+  cursor: default;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  gap: 20px;
+  margin-top: 20px;
+}
+.btn button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(244, 242, 242);
+  color: rgb(86, 134, 255);
+  border: solid 1px rgb(86, 134, 255);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn button:hover {
+  color: rgb(244, 242, 242);
+  background-color: rgb(86, 134, 255);
+  border: solid 1px rgb(86, 134, 255);
+}

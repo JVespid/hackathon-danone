@@ -1,0 +1,132 @@
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  img {
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+
+    h1 {
+      font-size: 3rem;
+      width: clamp(300px, 80vw, 500px);
+    }
+    h3 {
+      font-size: 2rem;
+      width: clamp(300px, 80vw, 700px);
+      text-align: justify;
+      color: rgb(31, 43, 97);
+    }
+
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 13.0875px 23.0956px;
+      gap: 7.7px;
+
+      width: 151.19px;
+      height: 43.11px;
+
+      /* White-background */
+
+      background: #ffffff;
+      /* VioletBlue */
+
+      border: 0.769852px solid #324baa;
+      border-radius: 3.07941px;
+      cursor: pointer;
+      &:hover {
+        background: #324baa;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .promos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+
+    .promo {
+      width: clamp(300px, 45vw, 500px);
+      height: auto;
+      margin: auto;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      border: solid 1px rgba(86, 134, 255,0.3);
+
+      h4 {
+      }
+      p {
+        padding: 0 10px;
+        font-size: 1.5rem;
+        text-align: justify;
+      }
+      .img {
+        width: 100%;
+        height: 351px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 13.0875px 23.0956px;
+        gap: 7.7px;
+  
+        width: max-content;
+        margin: 20px 0;
+        height: 43.11px;
+  
+  
+        background: #ffffff;
+        border: 0.769852px solid #324baa;
+        border-radius: 3.07941px;
+        cursor: pointer;
+        &:hover {
+          background: #324baa;
+          color: #ffffff;
+        }
+
+
+      }
+    }
+  }
+}

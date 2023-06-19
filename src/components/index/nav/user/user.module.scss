@@ -1,0 +1,34 @@
+
+.signup-signin {
+  cursor: pointer;
+  p{
+
+    border-bottom: solid 1px rgba(0, 23, 235,0);
+  }
+  &:hover p{
+    color: rgb(10, 19, 92);
+    border-bottom: solid 1px rgb(0, 23, 235);
+  }
+}
+
+.user-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: max-content;
+  height: auto;
+
+  cursor: pointer;
+
+  img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  p{
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,33 @@
+
+.search{
+  width: 100%;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  input{
+    width: clamp(200px, 50vw, 500px);
+    padding: 10px;
+    border: solid 2px rgba(133, 180, 255, 0.9);
+    border-radius: 10px;
+    color:rgba(133, 180, 255, 0.9);
+    
+    font-size: 2rem;
+    outline: none;
+    &::placeholder{
+      font-size: 1.5rem;
+      color:rgba(133, 180, 255, 0.9);
+    }
+  }
+  img{
+    color:rgba(133, 180, 255, 0.9);
+    width: auto;
+    height: 100%;
+    margin: auto, 10px;
+    padding: 10px;
+  }
+
+}
