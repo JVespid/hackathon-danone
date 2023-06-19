@@ -50,6 +50,7 @@ npm install
 Para hacer uso correcto del proyecto toma en cuanta que se usan las siguientes dependencias y para darle un buen uso al mismo hay que tener conocimientos mínimos de las mismas:
 
 ```json
+{
     @supabase/supabase-js: "^2.25.0",
     axios: "^1.4.0",
     contentful: "^10.2.4",
@@ -62,6 +63,7 @@ Para hacer uso correcto del proyecto toma en cuanta que se usan las siguientes d
     react-dom: "18.2.0",
     sass: "^1.63.4",
     uuid: "^9.0.0"
+}
 ```
 
 una vez instaladas las dependencias hay que agregar las variables de entorno en un archivo **.env.local** en la raíz del proyecto, recuerda que necesitas
